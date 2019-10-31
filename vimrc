@@ -103,10 +103,8 @@ nnoremap S  :x<CR>
 " Quickly quit editting and save
 nnoremap S  :x<CR>
 
-
-
 " Add header for shell scripts
-au BufNewFile *.sh 0r /home/wuseman/.vim/headers/bash_header.sh
+au BufNewFile *.sh 0r ~/.vim/headers/bash_header.sh
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
